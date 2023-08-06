@@ -21,7 +21,7 @@ namespace WebHook1.Domain
 
         private readonly string loginUrl = "https://access.line.me/oauth2/v2.1/authorize?response_type={0}&client_id={1}&redirect_uri={2}&state={3}&scope={4}";
         private readonly string clientId = "2000308075";
-        private readonly string clientSecret = "bdf7c724da78394ce23918fed0678849";
+        private readonly string clientSecret = "";
 
         // 回傳 line authorization url
         public string GetLoginUrl(string redirectUrl)

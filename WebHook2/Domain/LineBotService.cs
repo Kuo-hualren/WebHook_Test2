@@ -19,8 +19,8 @@ namespace WebHook1.Domain
         private static HttpClient client = new HttpClient(); // 負責處理HttpRequest
         private readonly JsonProvider _jsonProvider = new JsonProvider();
 
-        private readonly string channelAccessToken = "eVglgQGv1vP0vYrl90IWQNIDpHpDjLJcJ0KxQrUFLNm5GyCyNx3mtJ3KNfvMzthZZOuPgz4O8jeo8s2rr2tww1yzEpqvnlR1CtCp92p1aQxqW18vGwMwjlKxL1+LSJ2UYQw2+Tj6LOrqbQSzti93TwdB04t89/1O/w1cDnyilFU=";
-        private readonly string channelSecret = "a6a3a2b7c5d8f5fba0bde70239b6f97a";
+        private readonly string channelAccessToken = "";
+        private readonly string channelSecret = "";
 
         public LineBotService() 
         { 
